@@ -3,9 +3,7 @@
 ### Copyright (c) 2022 Pardn Ltd 帕登國際有限公司
 
 - 名稱: web-sample-1
-- 開發: 
-  - [Pardn Ltd 帕登國際有限公司](mailto:mail@pardn.ltd)
-  - [Pardn Chiu 邱敬幃](mailto:chiuchingwei@icloud.com)
+- 開發: [Pardn Chiu 邱敬幃](mailto:chiuchingwei@icloud.com)
 - 授權: [MIT](https://github.com/pardnchiu/web-sample-1/blob/main/LICENSE)
 
 ### 引用
