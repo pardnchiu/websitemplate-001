@@ -4,6 +4,11 @@
 - 開發: Pardn Chiu 邱敬幃
 - 聯絡: mail@pardn.ltd
 
+
+### 引用
+
+- fontawesome
+
 ### index.html
 ![T001](./image/T001.png)
 ![C001](./image/C001.png)
