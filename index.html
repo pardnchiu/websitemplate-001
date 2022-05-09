@@ -1,0 +1,508 @@
+<!-- 
+
+  模組化網站1
+  公司: Pardn Ltd 帕登國際有限公司
+  開發: Pardn Chiu 邱敬幃
+  聯絡: mail@pardn.ltd
+
+-->
+<!DOCTYPE html>
+<html lang="zh-Hans-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模組化網站1</title>
+  <style>
+    * {
+      /* 模組標籤顯示／隱藏 */
+      --module-hint: 1;
+      /* 最寬尺寸 */
+      --max-width: 1280px;
+      /* 主體顏色 */
+      --system-color: rgba(50, 100, 200, 0.9);
+      /* 主體顏色 - 淡 */
+      --system-color-light: rgba(100, 150, 250, 0.9);
+      /* 主體顏色 - 淡 */
+      --system-color-hint: rgba(100, 150, 250, 0.2);
+      /* 主體顏色 - 深 */
+      --system-color-dark: rgba(0, 50, 150, 0.9);
+      /* 提示顏色 */
+      --unselect-color: rgb(230, 230, 230);
+      /* 預設圓角 */
+      --default-radius: 0.5rem;
+    }
+  </style>
+  <link rel="stylesheet" href="./css/PDModule.css">
+  <script src="./js/PDModule.js" defer></script>
+</head>
+<body class="no-select" style="background-color: #202020;">
+  <!-- T001 -->
+  <div sn="T001" df="bg" path="/">
+    <!-- extend -->
+    <div df="ex">
+      <div>
+        <p>
+          <i class="fas fa-mobile-alt"></i>
+          0912-345-678
+        </p>
+      </div>
+      <a href="" df="btn fff col xl" mi="1">BUTTON</a>
+    </div>
+    <!-- navbar -->
+    <nav df="nvb" dir="ttb">
+      <h1>Pardn Ltd</h1>
+      <div>
+        <a class="fc" href="./index.html" mi="1">HOME</a>
+        <div mi="1" df="li">PAGES
+          <ul>
+            <li>
+              <a href="./gallery.html">GALLERY</a>
+            </li>
+            <li>
+              <a href="">LEFT</a>
+            </li>
+            <li>
+              <a href="">RIGHT</a>
+            </li>
+          </ul>
+        </div>
+        <a href="" mi="1">LINK</a>
+      </div>
+      <img df="nvb" src="" alt="" ic="more-dot-horz fff">
+    </nav>
+    <!-- body -->
+    <div df="bd">
+      <article>
+        <p class="subtitle">模組化範例 (一)</p>
+        <h3>模組化網站</h3>
+        <p>公司: Pardn Ltd 帕登國際有限公司<br>開發: Pardn Chiu 邱敬幃<br>聯絡: mail@pardn.ltd</p>
+        <div>
+          <a href="mailto:mail@pardn.ltd" df="btn fff col xl" mi="1" >CONTACT</a>
+          <a href="https://facebook.com/pardnltd" df="btn fff xl" mi="1" target="_blank">FACEBOOK</a>
+        </div>
+      </article>
+    </div>
+  </div>
+  <!-- C001 2022/05/08 - 12:09 -->
+  <div sn="C001">
+    <!-- body -->
+    <section>
+      <h6>Dui Aliquam Erat Volutpat</h6>
+      <p>Suspendisse porta ligula non elementum ultricies justo urna egestas metus ut ornare leo augue pharetra risus.</p>
+      <!-- child-body -->
+      <ul df="x4">
+        <!-- item -->
+        <li df="sd" mi="1">
+          <article>
+            <!-- <img src="" alt="" ic="img"> -->
+            <i class="fas fa-glass-martini-alt"></i>
+            <h6>Morbi Tincidunt</h6>
+            <p>Massa ac vestibulum rutrum orci augue iaculis nibh quis porta nunc nisi suscipit leo fusce accumsan volutpat dui donec molestie.</p>
+            <a href="" df="btn l col" mi="1">SEE DETAILS</a>
+          </article>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <article>
+            <!-- <img src="" alt="" ic="img"> -->
+            <i class="fas fa-chart-area"></i>
+            <h6>Arcu Quis Neque</h6>
+            <p>Integer pretium erat rhoncus ipsum nam nunc ut aliquam tristique metus integer sagittis vestibulum suscipit justo et leo curabitur.</p>
+            <a href="" df="btn l col" mi="1">SEE DETAILS</a>
+          </article>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <article>
+            <!-- <img src="" alt="" ic="img"> -->
+            <i class="fas fa-graduation-cap"></i>
+            <h6>Risus Accumsan</h6>
+            <p>Ligula vitae magna vestibulum congue erat eu turpis nulla libero phasellus pharetra justo eu iaculis auctor erat sapien viverra.</p>
+            <a href="" df="btn l col" mi="1">SEE DETAILS</a>
+          </article>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <article>
+            <!-- <img src="" alt="" ic="img"> -->
+            <i class="fas fa-bus-alt"></i>
+            <h6>Arcu Eget Iaculis</h6>
+            <p>Dui augue vitae arcu in nec orci vel odio vulputate sagittis nullam augue tortor rhoncus sed dictum vitae viverra posuere lorem.</p>
+            <a href="" df="btn l col" mi="1">SEE DETAILS</a>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- C013 2022/05/08 - 12:07 -->
+  <div sn="C013" df="bg">
+    <!-- body -->
+    <section>
+      <div>
+        <p>Etiam id augue in vestibulum</p>
+        <h6>Turpis In Tristique Eleifend Nulla</h6>
+        <!-- child-body -->
+        <div>
+          <!-- block -->
+          <div>
+            <ul>
+              <!-- item -->
+              <li>
+                <a href="">
+                  <!-- <img src="" alt="" ic="img"> -->
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <div>
+                  <h6>Ante Fringilla Nisl Eu</h6>
+                  <p>Gravida lorem ligula quis ligula pellentesque congue semper felis maecenas rutrum euismod nibh class aptent taciti.</p>
+                </div>
+              </li>
+              <!-- item -->
+              <li>
+                <a href="">
+                  <!-- <img src="" alt="" ic="img"> -->
+                  <i class="fas fa-football-ball"></i>
+                </a>
+                <div>
+                  <h6>Sociosqu Ad Litora Torquent</h6>
+                  <p>Per conubia nostra per inceptos himenaeos mauris lectus enim luctus vitae viverra a pharetra mollis diam aliquam.</p>
+                </div>
+              </li>
+              <!-- item -->
+              <li>
+                <a href="">
+                  <!-- <img src="" alt="" ic="img"> -->
+                  <i class="fas fa-toolbox"></i>
+                </a>
+                <div>
+                  <h6>Tincidunt Mi Ut Pede Maecenas</h6>
+                  <p>Nunc urna porttitor eget molestie a consequat at lectus duis eget pede vitae nunc vehicula pharetra donec.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- block -->
+          <div>
+            <img src="" alt="" ic="bg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- C002 2022/05/08 - 12:04 -->
+  <div sn="C002">
+    <!-- body -->
+    <section>
+      <p>Quam ut mi sed suscipit pede</p>
+      <h6>Quis Turpis Vivamus Pharetra Ornare</h6>
+      <!-- child-body -->
+      <ul df="x4">
+        <!-- item -->
+        <li df="sd" mi="1">
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <strong>A. Doe</strong>
+              <em>Consectetuer neque dui</em>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <strong>B. Doe</strong>
+              <em>Eros vivamus malesuada</em>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <strong>C. Doe</strong>
+              <em>Aliquam malesuada rutrum</em>
+            </figcaption>
+          </figure>
+        </li>
+        <!-- item -->
+        <li df="sd" mi="1">
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <strong>D. Doe</strong>
+              <em>Augue quisque consectetuer</em>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- C014 2022/05/08 - 12:03 -->
+  <div sn="C014" df="bg">
+    <!-- body -->
+    <section>
+      <p>Sed libero class aptent taciti</p>
+      <h6>Sociosqu Ad Litora Torquent Per</h6>
+      <!-- child-body -->
+      <ul df="x2">
+        <!-- item -->
+        <li>
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <h6>E. Doe</h6>
+              <em>Conubia nostra per inceptos</em>
+            </figcaption>
+          </figure>
+          <p>Himenaeos curabitur feugiat etiam in enim sed felis interdum lobortis phasellus nec eros ut arcu sollicitudin pellentesque curabitur porta justo vitae molestie semper ligula.</p>
+        </li>
+        <!-- item -->
+        <li>
+          <figure>
+            <div wh="1">
+              <img src="" alt="" ic="bg">
+            </div>
+            <figcaption>
+              <h6>F. Doe</h6>
+              <em>Neque euismod nisi non</em>
+            </figcaption>
+          </figure>
+          <p>Suscipit sem ante quis tortor curabitur ornare justo ut lobortis pulvinar diam elit accumsan felis non suscipit nunc erat sed justo etiam luctus imperdiet mauris donec id sapien.</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- C003 2022/05/08 - 15:27 -->
+  <div sn="C003">
+    <!-- body -->
+    <section>
+      <p>Phasellus eget sem quis elit</p>
+      <h6>Ultricies Porta Donec Imperdiet</h6>
+      <!-- child-body -->
+      <ul df="x3">
+        <!-- item -->
+        <li>
+          <article>
+            <h6>Nisl Nullam Odio Justo Pharetra</h6>
+            <ul>
+              <li>
+                <i class="fas fa-user"></i>
+                <a href="">User</a>
+              </li>
+              <li>
+                <p>2022/01/01</p>
+              </li>
+            </ul>
+            <figure>
+              <div wh="1">
+                <img src="" alt="" ic="bg">
+              </div>
+              <figcaption>
+                <p>Et sagittis ac dignissim nec metus proin nunc maecenas vel nulla vivamus mattis massa vitae</p>
+                <a href="" df="btn col l" mi="1">READ MORE</a>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
+        <!-- item -->
+        <li>
+          <article>
+            <h6>Sapien Aliquam Vulputate Massa</h6>
+            <ul>
+              <li>
+                <i class="fas fa-user"></i>
+                <a href="">User</a>
+              </li>
+              <li>
+                <p>2022/01/01</p>
+              </li>
+            </ul>
+            <figure>
+              <div wh="1">
+                <img src="" alt="" ic="bg">
+              </div>
+              <figcaption>
+                <p>Sed varius fringilla dolor metus iaculis odio ac scelerisque nibh velit sagittis tellus nulla</p>
+                <a href="" df="btn col l" mi="1">READ MORE</a>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
+        <!-- item -->
+        <li>
+          <article>
+            <h6>Facilisi Phasellus Eu Lacus</h6>
+            <ul>
+              <li>
+                <i class="fas fa-user"></i>
+                <a href="">User</a>
+              </li>
+              <li>
+                <p>2022/01/01</p>
+              </li>
+            </ul>
+            <figure>
+              <div wh="1">
+                <img src="" alt="" ic="bg">
+              </div>
+              <figcaption>
+                <p>Nulla facilisi integer adipiscing turpis cras quis neque at lectus tincidunt consectetuer</p>
+                <a href="" df="btn col l" mi="1">READ MORE</a>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- B002 -->
+  <div sn="B002" df="bg">
+    <!-- center -->
+    <div>
+      <!-- block -->
+      <ul df="x4">
+        <!-- child-block -->
+        <li sn="BC001">
+          <h6>Lorem Proin Volutpat</h6>
+          <div>
+            <p>Ligula quis sapien nam molestie massa quis pede maecenas quis lacus nunc sed lectus quis lectus tristique tincidunt sed varius nisl tincidunt lectus pellentesque sagittis mauris ut leo ullamcorper tortor morbi accumsan […]</p>
+            <ul>
+              <li>
+                <a href="">
+                  <i class="fab fa-tumblr-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fab fa-youtube-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fab fa-facebook-messenger"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fab fa-whatsapp-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fab fa-line"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- child-block -->
+        <li sn="BC002">
+          <h6>Nascetur Ridiculus Mus</h6>
+          <div>
+            <a href="">Aliquam eget leo praesent</a>
+            <a href="">Vel urna nunc ultricies</a>
+            <a href="">Faucibus nunc cum sociis</a>
+            <a href="">Natoque penatibus et magnis</a>
+            <a href="">Dis parturient montes</a>
+          </div>
+        </li>
+        <!-- child-block -->
+        <li sn="BC003">
+          <h6>Vestibulum Sed Quam</h6>
+          <div>
+            <p>Ante dapibus luctus sed quis diam vitae ipsum ultrices vehicula.</p>
+            <div>
+              <input type="text" placeholder="名稱">
+              <input type="text" placeholder="信箱">
+              <a href="" df="btn col fff l">送出</a>
+            </div>
+          </div>
+        </li>
+        <!-- child-block -->
+        <li sn="BC004">
+          <h6>Aenean Diam Euismod</h6>
+          <div>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+            <a href="">
+              <img src="" alt="" ic="bg">
+            </a>
+          </div>
+        </li>
+      </ul>
+      <nav>
+        <ul>
+          <li>
+            <a href=""><i class="fas fa-home"></i></a>
+          </li>
+          <li>
+            <a href="">ABOUT</a>
+          </li>
+          <li>
+            <a href="">CONTACT</a>
+          </li>
+          <li>
+            <a href="">TERMS</a>
+          </li>
+          <li>
+            <a href="">PRIVACY</a>
+          </li>
+          <li>
+            <a href="">COOKIES</a>
+          </li>
+        </ul>
+      </nav>
+      <footer>
+        <p class="l">Copyright © 2022 - All Rights Reserved - Pardn.ltd</p>
+        <p class="r">Template by 帕登國際有限公司</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
