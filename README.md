@@ -12,17 +12,23 @@
 
 ## index.html
 
-![T001](./image/T001.png)
-![C001](./image/C001.png)
-![C013](./image/C013.png)
-![C002](./image/C002.png)
-![C014](./image/C014.png)
-![C003](./image/C003.png)
-![B002](./image/B002.png)
+![T001](./preview/T001.png)
+![C001](./preview/C001.png)
+![C013](./preview/C013.png)
+![C002](./preview/C002.png)
+![C014](./preview/C014.png)
+![C003](./preview/C003.png)
+![B002](./preview/B002.png)
 
 ## gallery.html
 
-![T001%20collapse](./image/T001%20collapse.png)
-![C018](./image/C018.png)
-![B002](./image/B002.png)
+![T001-1](./preview/T001-1.png)
+![C018](./preview/C018.png)
+![B002](./preview/B002.png)
+
+## blog.html
+
+![T001-1](./preview/T001-1.png)
+![C019](./preview/C019.png)
+![B002](./preview/B002.png)
 
