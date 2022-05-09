@@ -1,11 +1,11 @@
 # 網站模板（一）
 
-### 開發人員
+### 開發
 - 公司: Pardn Ltd 帕登國際有限公司
 - 開發: Pardn Chiu 邱敬幃
 - 聯絡: mail@pardn.ltd
 
-### 外部項目
+### 引用
 - [fontawesome 5.1](https://fontawesome.com)
 
 ### index.html
