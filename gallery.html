@@ -1,10 +1,21 @@
-<!-- 
+<!--
+  Name: 
+    web-sample-1 網站模板 (一)
 
-  模組化網站1
-  公司: Pardn Ltd 帕登國際有限公司
-  開發: Pardn Chiu 邱敬幃
-  聯絡: mail@pardn.ltd
+  Authors: 
+    Pardn Ltd 帕登國際有限公司 <mail@pardn.ltd>
+    Pardn Chiu 邱敬幃 <chiuchingwei@icloud.com>
 
+  Author URI: --
+
+  Copyright: 
+    pardn.ltd 帕登國際有限公司
+
+  Licence: 
+    本授權條款允許使用者重製、散布、傳輸以及修改著作，但不得為商業目的之使用。
+    使用時必須按照著作人指定的方式表彰其姓名。
+
+  Licence URI: --
 -->
 <!DOCTYPE html>
 <html lang="zh-Hans-TW">
@@ -15,23 +26,15 @@
   <title>模組化網站1</title>
   <style>
     * {
-      /* 模組標籤顯示／隱藏 */
       --module-hint: 1;
-      /* 最寬尺寸 */
-      --max-width: 1280px;
-      /* 主體顏色 */
-      --system-color: rgba(50, 100, 200, 0.9);
-      /* 主體顏色 - 淡 */
-      --system-color-light: rgba(100, 150, 250, 0.9);
-      /* 主體顏色 - 淡 */
-      --system-color-hint: rgba(100, 150, 250, 0.2);
-      /* 主體顏色 - 深 */
-      --system-color-dark: rgba(0, 50, 150, 0.9);
-      /* 提示顏色 */
+      --max-width: 1140px;
+      --col-sys: rgba(50, 100, 200, 0.9);
+      --col-sys-light: rgba(100, 150, 250, 0.9);
+      --col-sys-hint: rgba(100, 150, 250, 0.2);
+      --col-sys-dark: rgba(0, 50, 150, 0.9);
       --col-border: rgb(215, 215, 215);
       --col-hint: rgb(230, 230, 230);
       --col-bg-lightgray: rgb(245, 245, 245);
-      /* 預設圓角 */
       --default-radius: 0.5rem;
     }
   </style>
@@ -44,32 +47,33 @@
     <!-- extend -->
     <div df="ex">
       <div>
-        <p>
+        <a href="tel:+886963592754">
           <i class="fas fa-mobile-alt"></i>
-          0912-345-678
-        </p>
+          +886-963-592-754
+        </a>
       </div>
-      <a href="" df="btn fff col xl" mi="1">BUTTON</a>
+      <a href="" df="btn fff col xl" mi="1">按鈕範例</a>
     </div>
     <!-- navbar -->
     <nav df="nvb" dir="ttb">
       <h1>Pardn Ltd</h1>
       <div>
-        <a href="./index.html" mi="1">HOME</a>
-        <div class="fc" mi="1" df="li">PAGES
+        <a href="./index.html" mi="1">首頁</a>
+        <div class="fc" mi="1" df="li">列表
           <ul>
             <li>
-              <a href="./gallery.html">GALLERY</a>
+              <a href="./gallery.html">相簿展示</a>
             </li>
             <li>
-              <a href="./blog.html">BLOG</a>
+              <a href="./blog.html">全寬文章</a>
             </li>
             <li>
-              <a href="">SIDEBAR</a>
+              <a href="">側欄文章</a>
             </li>
           </ul>
         </div>
-        <a href="" mi="1">LINK</a>
+        <a href="" mi="1">連結1</a>
+        <a href="" mi="1">連結2</a>
       </div>
       <img df="nvb" src="" alt="" ic="more-dot-horz fff">
     </nav>
@@ -80,8 +84,12 @@
         <h3>模組化網站</h3>
         <p>公司: Pardn Ltd 帕登國際有限公司<br>開發: Pardn Chiu 邱敬幃<br>聯絡: mail@pardn.ltd</p>
         <div>
-          <a href="mailto:mail@pardn.ltd" df="btn fff col xl" mi="1" >CONTACT</a>
-          <a href="https://facebook.com/pardnltd" df="btn fff xl" mi="1" target="_blank">FACEBOOK</a>
+          <a href="mailto:mail@pardn.ltd" df="btn fff col xl" mi="1" >
+            <i class="fas fa-envelope"></i> 信箱</a>
+          <a href="https://facebook.com/pardnltd" df="btn fff xl" mi="1" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+            粉絲專頁
+          </a>
         </div>
       </article>
     </div>
@@ -89,8 +97,8 @@
   <!-- C018 -->
   <div sn="C018">
     <figure>
-      <header>Sociosqu Ad Litora Torquent</header>
-      <figcaption>Per conubia nostra per inceptos himenaeos mauris lectus enim luctus vitae viverra a pharetra mollis diam aliquam.</figcaption>
+      <header>標題範例</header>
+      <figcaption>內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例內容範例</figcaption>
       <ul>
         <li>
           <div wh="1">
