@@ -8,7 +8,6 @@
 
 ### 引用
 
-- PDModule.css (Pardn Ltd Module CSS) - 後續釋出
 - [fontawesome 5.1](https://fontawesome.com)
 
 ## index.html
