@@ -1,10 +1,7 @@
-# 網站模板（一）
+# 網站模板 (一)
 
-### 開發
-
-- 公司: Pardn Ltd 帕登國際有限公司
-- 開發: Pardn Chiu 邱敬幃
-- 聯絡: mail@pardn.ltd
+- 名稱: web-sample-1 網站模板 (一)
+- 開發者: [Pardn Ltd 帕登國際有限公司](mailto:mail@pardn.ltd), [Pardn Chiu 邱敬幃](mailto:)
 
 ### 引用
 
