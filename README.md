@@ -18,7 +18,7 @@
 ![B002](./image/B002.png)
 
 ### gallery.html
-![T001 collapse](./image/T001\ collapse.png)
+![T001 collapse](./image/T001%20collapse.png)
 ![C018](./image/C018.png)
 ![B002](./image/B002.png)
 
