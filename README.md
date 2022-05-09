@@ -1,11 +1,10 @@
 # 網站模板 (一)
 
+- Copyright: 2022 Pardn Ltd 帕登國際有限公司
 - 名稱: web-sample-1 網站模板 (一)
-- 開發者: [Pardn Ltd 帕登國際有限公司](mailto:mail@pardn.ltd), [Pardn Chiu 邱敬幃](mailto:)
-
-### 引用
-
-- [fontawesome 5.1](https://fontawesome.com)
+- 開發: [Pardn Ltd 帕登國際有限公司](mailto:mail@pardn.ltd), [Pardn Chiu 邱敬幃](mailto:chiuchingwei@icloud.com)
+- 授權: [MIT](https://github.com/pardnchiu/web-sample-1/blob/main/LICENSE)
+- 引用: [fontawesome 5.1](https://fontawesome.com)
 
 ## index.html
 
