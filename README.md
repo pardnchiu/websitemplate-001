@@ -8,7 +8,9 @@
 ### 引用
 - [fontawesome 5.1](https://fontawesome.com)
 
-### index.html
+### 頁面
+---
+#### index.html
 ![T001](./image/T001.png)
 ![C001](./image/C001.png)
 ![C013](./image/C013.png)
@@ -16,8 +18,8 @@
 ![C014](./image/C014.png)
 ![C003](./image/C003.png)
 ![B002](./image/B002.png)
-
-### gallery.html
+---
+#### gallery.html
 ![T001 collapse](./image/T001%20collapse.png)
 ![C018](./image/C018.png)
 ![B002](./image/B002.png)
