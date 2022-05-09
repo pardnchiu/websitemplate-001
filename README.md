@@ -22,7 +22,7 @@
 
 ## gallery.html
 
-![T001 collapse](./image/T001%20collapse.png)
+![T001%20collapse](./image/T001%20collapse.png)
 ![C018](./image/C018.png)
 ![B002](./image/B002.png)
 
