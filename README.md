@@ -5,9 +5,9 @@
 - 聯絡: mail@pardn.ltd
 
 
-### 引用
+### 外部項目
 
-- [fontawesome](https://fontawesome.com)
+- [fontawesome 5.1](https://fontawesome.com)
 
 ### index.html
 ![T001](./image/T001.png)
