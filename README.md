@@ -12,9 +12,7 @@
 
 ***
 
-### 頁面
-
-- index.html
+### index.html
 ![T001](./image/T001.png)
 ![C001](./image/C001.png)
 ![C013](./image/C013.png)
@@ -23,7 +21,9 @@
 ![C003](./image/C003.png)
 ![B002](./image/B002.png)
 
-- gallery.html
+***
+
+### gallery.html
 ![T001 collapse](./image/T001%20collapse.png)
 ![C018](./image/C018.png)
 ![B002](./image/B002.png)
