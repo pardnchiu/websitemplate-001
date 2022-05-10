@@ -1,8 +1,8 @@
 # 網站模板 1
 
-- 名稱: Web Template 1
+- 名稱: Website Template 1
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
-- 授權: [MIT License](https://github.com/pardnchiu/web-sample-1/blob/main/LICENSE)
+- 授權: [MIT License](./LICENSE)
 ### 引用
 
 - [fontawesome 5.1](https://fontawesome.com)
