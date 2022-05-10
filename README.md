@@ -3,7 +3,9 @@
 - 名稱: Web Template 1
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
 - 授權: [MIT License](https://github.com/pardnchiu/web-sample-1/blob/main/LICENSE)
-- Copyright (c) 2022 Pardn Ltd
+### 引用
+
+- [fontawesome 5.1](https://fontawesome.com)
 ### 畫面
 
 | index |
@@ -18,6 +20,4 @@
 |---|
 | ![T001-1](./preview/T001-1.png) ![C019](./preview/C019.png) ![B002](./preview/B002.png) |
 
-### 引用
-
-- [fontawesome 5.1](https://fontawesome.com)
+Copyright (c) 2022 Pardn Ltd 帕登國際有限公司
