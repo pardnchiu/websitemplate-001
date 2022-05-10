@@ -1,11 +1,10 @@
 # 網站模板（一）
 
-### 開發
+### Copyright (c) 2022 Pardn Ltd 帕登國際有限公司
 
-- 公司: Pardn Ltd 帕登國際有限公司
-- 開發: Pardn Chiu 邱敬幃
-- 聯絡: [mail@pardn.ltd](mailto:mail@pardn.ltd)
-
+- 名稱: web-sample-1
+- 開發: [Pardn Chiu 邱敬幃](mailto:chiuchingwei@icloud.com)
+- 授權: [MIT](https://github.com/pardnchiu/web-sample-1/blob/main/LICENSE)
 ### 畫面
 
 | index.html |
