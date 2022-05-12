@@ -1,4 +1,4 @@
-# 網站模板
+# Website Template 網站模板
 
 - 名稱: [Websitemplate 1](https://pardnchiu.github.io/websitemplate-001/)
 - 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
