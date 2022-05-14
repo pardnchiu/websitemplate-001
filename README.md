@@ -1,11 +1,22 @@
 # Website Template 網站模板
 
+<br>
+
+### 介紹
+
 - 名稱: [Websitemplate 1](https://pardnchiu.github.io/websitemplate-001/)
-- 開發: [Pardn Chiu](mailto:chiuchingwei@icloud.com)
+- 開發: [Pardn Chiu](https://facebook.com/chiuchingwei) / [信箱](mailto:chiuchingwei@icloud.com)
 - 授權: [MIT License](./LICENSE)
+- 源碼: https://github.com/pardnchiu/websitemplate-001
+
+<br>
+
 ### 引用
 
-- [fontawesome 5.1](https://fontawesome.com)
+- [Font Awesome 5.1](https://fontawesome.com)
+
+<br>
+
 ### 畫面
 
 | index |
@@ -20,4 +31,6 @@
 |---|
 | ![T001-1](./preview/T001-1.png) ![C019](./preview/C019.png) ![B002](./preview/B002.png) |
 
-Copyright (c) 2022 Pardn Ltd 帕登國際有限公司
+<br>
+
+Copyright (c) 2022 [Pardn Ltd 帕登國際有限公司](https://facebook.com/pardnltd)
